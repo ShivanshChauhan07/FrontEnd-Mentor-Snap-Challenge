@@ -1,0 +1,91 @@
+body{
+  font-family: 'Epilogue',sans-serif;
+  font-weight: 500;
+}
+h1{
+  margin-bottom: 5%;
+  font-weight: 700;
+  font-size: 50px;
+}
+p{
+  text-align: justify;
+  width: 55%;
+  line-height: 150%;
+  color: #73777B;
+}
+
+.parent{
+list-style: none;
+padding: 0;
+}
+.parent li{
+  float: left;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.child{
+padding: 0;
+list-style: none;
+display: none;
+}
+.child li{
+  border: 1px thin ;
+  background: #F6F6F6;
+}
+.top{
+  background: #CFD2CF;
+
+}
+
+.reg{
+  border-radius: 12px;
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+  padding: 0.5% 0.5% 0.5%;
+  font-weight: 700;
+
+}
+.container{
+  width: 85%;
+  padding: 5% 5% 5%;
+}
+.firstContainer{
+  float:left;
+  width: 55%;
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-align: justify;
+}
+.secondContainer{
+  width: 35%;
+  float: inherit;
+  display: inline-flex;
+  justify-content: center;
+}
+.btn{
+  margin-top: 5%;
+  border-style: solid;
+  padding: 1.85% 1.85% 1.85%;
+  border-radius: 12px;
+  font-weight: 700;
+  background-color: Black;
+  color:White;
+  width: 20%;
+  text-align: center;
+}
+.btn:hover{
+  background-color: White;
+  color: Black;
+}
+.logos{
+  width: 45%;
+  position: relative;
+  bottom: 45px;
+}
+.logo{
+  margin: 0 3% 0;
+}
